@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Index</title>
+  <link rel="stylesheet" href="{% static 'bootstrap.min.css' %}">
+</head>
+<body>
+  <h1>This is index welcome To my website</h1>
+  </br>
+  </br>
+ <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <form method="POST" action="{% url 'logout' %}">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger btn-lg px-5 py-3">Logout</button>
+  </form>
+</div>
+</form>
+<script src="{% static 'bootstrap.min.js' %}"></script>
+</body>
+</html>
