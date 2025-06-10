@@ -1,6 +1,6 @@
 # Django Authentication
 
-A Authentication application built with Django, featuring user authentication.that works seamlessly across all devices.
+An Authentication application built with Django, featuring user authentication.that works seamlessly across all devices.
 
 ## Features
 
@@ -97,7 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/exoncodex/Auth_project.git) page
+1. Check the [Issues](https://github.com/exoncodex/Auth_project/issues) page
 2. Create a new issue if your problem isn't already reported
 3. Provide detailed information about your environment and the problem
 
@@ -105,6 +105,6 @@ If you encounter any issues or have questions:
 
 - Django documentation and community
 - Bootstrap for responsive design components
-- F
+
 
 **Happy Authentication! 📝✅**
